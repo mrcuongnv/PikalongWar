@@ -1,3 +1,17 @@
+###
+# Easy / 200
+#
+# Given a natural number n. Find the number of divisors of n.
+#
+# Input:
+#
+# The natural number n. (1 <= n <= 10^14)
+#
+# Output:
+#
+# The number of divisors of n. The maximum execution time is 3 seconds
+###
+
 import sys
 from math import sqrt
 from itertools import count, islice
