@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 ###
 # Easy / 200
 #
@@ -22,7 +24,7 @@ def isPrime(n):
         return True
     if n % 2 == 0:
         return False
-    for i in islice(count(3, 2), int(sqrt(n))):
+    for i in range(3, int(sqrt(n)), 2):
         if n % i == 0:
             return False
     return True
